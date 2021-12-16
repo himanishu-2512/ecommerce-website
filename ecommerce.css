@@ -70,6 +70,8 @@ background:black;
 #input{
     height:30px;
     width:300px;
+    text-decoration: none;
+    border:0px;
 }
 .logo a{
     color: white;
