@@ -78,16 +78,18 @@ background:black;
     text-decoration:none;
 }
 ion-icon{
-    width:40px;
+    width:30px;
     height:30px;
     background-color: white;
-    border:3px solid black;
-    position: relative;
-    top:12px;
+    
+   
     color:black;
-    margin: 0;
+   
 
 
+}
+.search a{
+    display:flex;
 }
 header a ion-icon{
    position:relative;
@@ -169,29 +171,8 @@ header a ion-icon{
     align-items: center;
     margin:0px auto;
 }
-.arrow{
-    position: absolute;
-    top:50%;
-    opacity:0;
-    
-    }
-    .arrow  .next{
-    position:realtive;
-        right:-990px;
-        
-    }
-    .section1:hover .arrow{
-        opacity:1;
-    }
-    .arrow ion-icon{
-        background-color: transparent;
-        border:none;
-        color:turquoise;
 
-    }
-    .arrow ion-icon:active{
-        color:tomato
-    }
+    
     .section2 .container{
         display:flex;
         width:100%;
@@ -333,6 +314,7 @@ transform: scale(1.05);
 }
 .menu{
     visibility: hidden;
+    
 }
 .heading1 .ham:active{
     color: red;
@@ -340,7 +322,9 @@ transform: scale(1.05);
 .items{
     overflow:hidden;
 }
-
+.ham,.close{
+cursor:pointer;
+}
 
 
 @media  screen and (max-width:1250px){
@@ -348,13 +332,7 @@ transform: scale(1.05);
        display:none;
 
     }
-    .arrow{
-        position:absolute;
-        top:30vw;
-        opacity:0;
-        left:8vw;
-        
-        }
+    
     .items{
         transform:scale(0.9);
     }
@@ -471,11 +449,7 @@ font-weight: 900;
         align-items: center;
         margin:0px auto;
     }
-    .arrow  .next{
-        position:realtive;
-            right:-70vw;
-            
-        }
+   
       
 
     
@@ -507,9 +481,7 @@ bottom:8px;
     }
 }
 @media screen and (max-width:550px){
-    .arrow{
-        display: none;
-    }
+    
 
     
     .heading ul li{
