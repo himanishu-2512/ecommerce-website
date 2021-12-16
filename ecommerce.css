@@ -166,6 +166,7 @@ header a ion-icon{
    
 }
 .search{
+    display:flex;
     position: relative;
     bottom:5px;
 }
@@ -529,8 +530,9 @@ bottom:8px;
         
         bottom:8px;
        }
-     header
-     {height:250px;
+
+       header{
+           height:250px;
         flex-wrap: wrap;
                }
    #input{
