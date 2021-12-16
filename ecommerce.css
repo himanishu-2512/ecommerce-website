@@ -72,6 +72,7 @@ background:black;
     width:300px;
     text-decoration: none;
     border:0px;
+    padding:5px;
 }
 .logo a{
     color: white;
