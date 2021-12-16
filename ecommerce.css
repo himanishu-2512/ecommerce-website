@@ -345,6 +345,9 @@ transform: scale(1.05);
 .heading1 .ham:active{
     color: red;
 }
+.items{
+    overflow:hidden;
+}
 
 
 
