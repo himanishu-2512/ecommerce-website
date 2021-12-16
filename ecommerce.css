@@ -505,6 +505,8 @@ bottom:8px;
        header{
            height:250px;
         flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
                }
    #input{
        width:150px;
