@@ -81,12 +81,10 @@ ion-icon{
     width:30px;
     height:30px;
     background-color: white;
-    
-   
     color:black;
-   
-
-
+}
+ion-icon:hover{
+    cursor: pointer;
 }
 .search a{
     display:flex;
@@ -161,7 +159,7 @@ header a ion-icon{
 .search{
     display:flex;
     position: relative;
-    bottom:5px;
+    
 }
 .section1{
     width:1080px;
@@ -313,7 +311,9 @@ transform: scale(1.05);
     margin:10px;
 }
 .menu{
-    visibility: hidden;
+    
+    
+    visibility:hidden;
     
 }
 .heading1 .ham:active{
@@ -324,6 +324,7 @@ transform: scale(1.05);
 }
 .ham,.close{
 cursor:pointer;
+
 }
 
 
@@ -343,7 +344,17 @@ cursor:pointer;
         }
     .ham:active {
          color:red;
-     }   
+     }  
+       .menu {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        }    
+        .menu a ion-icon{
+            
+            position: absolute;
+            
+        }
      
      
      @keyframes slide1{
@@ -401,10 +412,9 @@ cursor:pointer;
         
         }
 .close{
-            position:relative;
-left:50vw;
+
 z-index:34;        
-position:absolute;
+
     color:white;
 background-color: black;
 }
@@ -450,16 +460,12 @@ font-weight: 900;
         margin:0px auto;
     }
    
-      
-
-    
-   
 .heading1{
 opacity: 1;
 position:relative;
 bottom:8px;
     }
-    .search{
+    .search a{
         display:flex;
         flex-wrap: nowrap;
     }
@@ -502,15 +508,17 @@ bottom:8px;
        width:150px;
    }
    .close{
-    position: relative;
-    left:10px;
+    
 
 z-index:34;}
 
-.search{
+.search a{
     display:flex;
     flex-wrap: nowrap;
 
 }
+
+
 }
+
 
